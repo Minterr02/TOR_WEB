@@ -1,29 +1,70 @@
 body {
-    background-color:black;
+    background-color:brown;
     margin: 0;
 }
+.head_section{
+    background-color: beige;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px; 
+    top: 5px;
+    width: 100%;
+}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+header{ /** ส่วนหัวชื่อตัวใหญ่ **/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    color: brown;
+    margin: 20px;
+    font-size: 40px;
+    background-color: beige;
+
+}
+
+.head_section ul {  /** ส่วนหัวnavigation bar **/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0px; 
+    top: 0px;
+    width: 100%;
+    list-style: none;
+    font-size: 25px;
     overflow: hidden;
     background-color: beige;
 }
 
-li {
-    text-align: right;
+.head_section li { /** ส่วนหัวnavigation bar พวกเส้นใต้ **/
     float: left;
+    margin-right: 20px;
 }
 
-li a {
+.head_section li a { /** ส่วนหัวnavigation bar พวกสี การจัดตัวหนังสือ **/
     display: block;
-    color: black;
+    color: brown;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 20px;
     text-decoration: none;
 }
 
-li a :hover {
-    background-color: blueviolet;
+.information_section{
+    color: beige;
+    text-align: center;
+    margin-right: 20px;
+    width: 300px;
 }
+
+.button_work {
+    background-color: beige;
+    border: none;
+    color: rgb(63, 21, 21);
+    border-radius: 5px;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+  }
