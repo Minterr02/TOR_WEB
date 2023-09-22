@@ -1,26 +1,25 @@
 body {
-    background-color:brown;
+    background-color:rgb(250, 167, 167);
     margin: 0;
 }
-.head_section{
+.head_section {
     background-color: beige;
     display: flex;
     justify-content: flex-end;
     padding: 0px; 
-    top: 5px;
+    top: 0px;
     width: 100%;
 }
 
-header{ /** ส่วนหัวชื่อตัวใหญ่ **/
+header { /** ส่วนหัวชื่อตัวใหญ่ **/
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    position: fixed;
     color: brown;
     margin: 20px;
-    font-size: 40px;
-    background-color: beige;
-
+    font-size: 45px;
 }
 
 .head_section ul {  /** ส่วนหัวnavigation bar **/
@@ -49,11 +48,34 @@ header{ /** ส่วนหัวชื่อตัวใหญ่ **/
     text-decoration: none;
 }
 
-.information_section{
+.image {
+    display: block;
+    width: 1000px;
+    height: 500px;
+}
+
+.image1 {
+    width: 910px;
+    height: 500px;
+    transform: translate(1000px, -500px);
+}
+
+.information_section {
+    display: flex;
+    justify-content: left; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
+    align-items: center;
+    top: 600px;
+    position: absolute;
     color: beige;
-    text-align: center;
-    margin-right: 20px;
-    width: 300px;
+    font-size: 27px;
+    margin-left: 100px;
+}
+
+.font1 {
+    font-size: 30px;
+    display: grid;
+    place-items: center; 
+    margin-left: 20px;
 }
 
 .button_work {
@@ -61,10 +83,65 @@ header{ /** ส่วนหัวชื่อตัวใหญ่ **/
     border: none;
     color: rgb(63, 21, 21);
     border-radius: 5px;
-    padding: 1px 1px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
     margin-left: 20px;
   }
+
+.position6  {
+    padding: 0px; 
+    list-style: none;
+    overflow: hidden;
+    top: 720px;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 300px;
+}
+
+.position6 li a {
+    font-size: 35px;
+    text-decoration: none;
+    color: beige;
+    margin-top: 10px;
+    padding: 0px;
+
+}
+
+.information_Seminar {
+    display: flex;
+    justify-content: left; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
+    align-items: center;
+    top: 420px;
+    margin: 0;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    color: beige;
+    font-size: 27px;
+    margin-left: 1100px;
+}
+
+.about {
+    color: brown;
+    font-size: 45px ;
+    display: flex;
+    justify-content: center; /* จัดให้ตัวหนังสืออยู่ตรงกลางแนวนอน */
+    align-items: center;
+}
+
+.toptitle {
+    color: brown;
+    font-size: 30px; 
+    text-align: center;
+}
+
+.address {
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+
+}
