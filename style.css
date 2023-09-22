@@ -50,8 +50,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 
 .image {
     display: block;
-    width: 1000px;
-    height: 500px;
+    width: 1500px;
+    height: 700px;
 }
 
 .image1 {
@@ -64,7 +64,7 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
     display: flex;
     justify-content: left; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
     align-items: center;
-    top: 600px;
+    top: 780px;
     position: absolute;
     color: beige;
     font-size: 27px;
@@ -75,7 +75,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
     font-size: 30px;
     display: grid;
     place-items: center; 
-    margin-left: 20px;
+    margin-left: 150px;
+    text-align: center;
 }
 
 .button_work {
@@ -95,11 +96,11 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
     padding: 0px; 
     list-style: none;
     overflow: hidden;
-    top: 720px;
+    top: 900px;
     position: absolute;
     text-align: center;
     font-size: 22px;
-    margin-left: 300px;
+    margin-left: 650px;
 }
 
 .position6 li a {
@@ -115,14 +116,14 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
     display: flex;
     justify-content: left; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
     align-items: center;
-    top: 420px;
+    top: 1200px;
     margin: 0;
     width: 500px;
     height: 500px;
     position: absolute;
     color: beige;
     font-size: 27px;
-    margin-left: 1100px;
+    margin-left: 100px;
 }
 
 .about {
