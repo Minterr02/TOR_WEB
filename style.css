@@ -1,14 +1,15 @@
 body {
-    background-color:rgb(250, 167, 167);
+    background-color: #d5e9f4;
     margin: 0;
 }
 .head_section {
-    background-color: beige;
+    background-color: #5e718b;
     display: flex;
     justify-content: flex-end;
     padding: 0px; 
     top: 0px;
     width: 100%;
+
 }
 
 header { /** ส่วนหัวชื่อตัวใหญ่ **/
@@ -17,9 +18,10 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
     left: 0;
     display: flex;
     align-items: center;
-    color: brown;
+    color: white;
     margin: 20px;
     font-size: 45px;
+    text-align: center;
 }
 
 .head_section ul {  /** ส่วนหัวnavigation bar **/
@@ -28,11 +30,12 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
     justify-content: right;
     padding: 0px; 
     top: 0px;
+    height: 60px;
     width: 100%;
     list-style: none;
     font-size: 25px;
     overflow: hidden;
-    background-color: beige;
+    background-color:#5e718b;
 }
 
 .head_section li { /** ส่วนหัวnavigation bar พวกเส้นใต้ **/
@@ -42,92 +45,83 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 
 .head_section li a { /** ส่วนหัวnavigation bar พวกสี การจัดตัวหนังสือ **/
     display: block;
-    color: brown;
+    color: white;
     text-align: center;
     padding: 0px 20px;
     text-decoration: none;
 }
 
 .image {
-    display: block;
-    width: 1500px;
-    height: 700px;
+    background: url('https://png.pngtree.com/thumb_back/fh260/background/20210207/pngtree-white-minimalist-background-gradient-image_555831.jpg') center center no-repeat; /* ใส่พื้นหลังด้วย background */
+    background-size: cover; /* ปรับขนาดพื้นหลังให้เต็มขนาด */
+    padding: 20px; /* สำหรับการเพิ่มระยะห่างรอบรูป */
+    width: 650px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งให้ตรงกลางแนวนอน */
+    align-items: center; /* จัดตำแหน่งให้ตรงกลางแนวตั้ง */
+    margin-left: 350px;
 }
 
 .image1 {
-    width: 910px;
-    height: 500px;
-    transform: translate(1000px, -500px);
+    border-radius: 50%;
+    width: 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งให้ตรงกลางแนวนอน */
+    align-items: center; /* จัดตำแหน่งให้ตรงกลางแนวตั้ง */
+    margin-left: 700px;
+}
+
+.information {
+    text-align: center;
+    font-size: 24px;
+    top: 0;
+    color: #5e718b;
+    margin-left: 60px;
+    margin-right: 70px;
 }
 
 .information_section {
-    display: flex;
-    justify-content: left; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
-    align-items: center;
-    top: 780px;
-    position: absolute;
-    color: beige;
-    font-size: 27px;
-    margin-left: 100px;
+    margin-left: 200px;
+    top: 1050px;
+    color: #5e718b;
+    font-size: 30px;
 }
 
 .font1 {
-    font-size: 30px;
-    display: grid;
-    place-items: center; 
-    margin-left: 150px;
-    text-align: center;
+    font-size: 25px;
+    top: 10px;
+    margin-left: 0px;
+
 }
 
 .button_work {
-    background-color: beige;
+    background-color: #cf786f;
     border: none;
-    color: rgb(63, 21, 21);
+    color: #e5b5bd;
     border-radius: 5px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 25px;
-    margin-left: 20px;
+    margin-top: 0px;
   }
 
-.position6  {
-    padding: 0px; 
-    list-style: none;
-    overflow: hidden;
-    top: 900px;
-    position: absolute;
-    text-align: center;
-    font-size: 22px;
-    margin-left: 650px;
-}
-
-.position6 li a {
-    font-size: 35px;
-    text-decoration: none;
-    color: beige;
-    margin-top: 10px;
-    padding: 0px;
-
-}
-
 .information_Seminar {
-    display: flex;
-    justify-content: left; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
-    align-items: center;
-    top: 1200px;
     margin: 0;
     width: 500px;
     height: 500px;
     position: absolute;
-    color: beige;
+    color: #5e718b;
     font-size: 27px;
-    margin-left: 100px;
+    margin-left: 850px;
+    margin-top: -10px;
 }
 
 .about {
-    color: brown;
+    color: #5e718b;
     font-size: 45px ;
     display: flex;
     justify-content: center; /* จัดให้ตัวหนังสืออยู่ตรงกลางแนวนอน */
@@ -135,14 +129,92 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 }
 
 .toptitle {
-    color: brown;
+    color: #5e718b;
     font-size: 30px; 
     text-align: center;
 }
 
 .address {
-    color: brown;
+    color: #5e718b;
     font-size: 20px;
     text-align: center;
+}
 
+.button_Seminar {
+    background-color: #cf786f;
+    border: none;
+    color: #e5b5bd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 10px ;
+}
+
+.image2 {
+    border-radius: 45%;
+    width: 300px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center; /* จัดตำแหน่งให้ตรงกลางแนวนอน */
+    align-items: center; /* จัดตำแหน่งให้ตรงกลางแนวตั้ง */
+    margin-left: 200px;
+    margin-top: 0px;
+}
+
+.page_work{
+    font-size: 30;
+}
+
+.data {
+    margin-left: 50px;
+}
+
+.job_data {
+    font-size: 20px;
+    margin-left:  70px;
+    margin-right: 100px;
+}
+
+.job_database {
+    font-size: 20px;
+    margin-left:  70px;
+    margin-right: 100px;
+}
+
+.job_network {
+    font-size: 20px;
+    margin-left:  70px;
+    margin-right: 100px;
+}
+
+.job_design {
+    font-size: 20px;
+    margin-left:  70px;
+    margin-right: 100px;
+}
+
+.job_cyber {
+    font-size: 20px;
+    margin-left:  70px;
+    margin-right: 100px;
+}
+
+.job_tester {
+    font-size: 20px;
+    margin-left:  70px;
+    margin-right: 100px;
+}
+
+.footer_section {
+    margin-top: 30px;
+    position: absolute;
+    background-color: #5e718b;
+    font-size: 20px;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    color: white;
 }
