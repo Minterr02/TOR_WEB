@@ -198,8 +198,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 .job_data {
     color: #5e718b;
     font-size: 20px;
-    margin-left:  70px;
-    margin-right: 100px;
+    margin-left:  150px;
+    margin-right: 150px;
 }
 .button_jobdata {
     background-color: #665687;
@@ -217,8 +217,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 .job_database {
     color: #5e718b;
     font-size: 20px;
-    margin-left:  70px;
-    margin-right: 100px;
+    margin-left:  150px;
+    margin-right: 150px;
 }
 .button_jobdatabase {
     background-color: #665687;
@@ -236,8 +236,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 .job_network {
     color: #5e718b;
     font-size: 20px;
-    margin-left:  70px;
-    margin-right: 100px;
+    margin-left:  150px;
+    margin-right: 150px;
 }
 .button_jobnetwork {
     background-color: #665687;
@@ -255,8 +255,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 .job_design {
     color: #5e718b;
     font-size: 20px;
-    margin-left:  70px;
-    margin-right: 100px;
+    margin-left:  150px;
+    margin-right: 150px;
 }
 .button_jobdesign {
     background-color: #665687;
@@ -274,8 +274,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 .job_cyber {
     color: #5e718b;
     font-size: 20px;
-    margin-left:  70px;
-    margin-right: 100px;
+    margin-left:  150px;
+    margin-right: 150px;
 }
 .button_jobcyber {
     background-color: #665687;
@@ -293,8 +293,8 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
 .job_tester {
     color: #5e718b;
     font-size: 20px;
-    margin-left:  70px;
-    margin-right: 100px;
+    margin-left:  150px;
+    margin-right: 150px;
 }
 .button_jobtester {
     background-color: #665687;
