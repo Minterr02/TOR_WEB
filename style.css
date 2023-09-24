@@ -56,7 +56,7 @@ header { /** ส่วนหัวชื่อตัวใหญ่ **/
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/74/47/04/7447042a41a9bff1f39695ec4287c774.gif");
   
     /* Set a specific height */
-    height: 710px;
+    height: 750px;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
